@@ -1,0 +1,38 @@
+/* Styling paragraphs */
+p {
+    border: 2px red dashed;
+    width: 50%;
+    margin-left: 100px;
+    padding: 10px;
+}
+body{
+    background-color: gray;
+    background-image: url('../images/sait.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    text-decoration: line-through;
+}
+img {
+    width: 150px;
+    height: 150px;
+}
+#hex {
+    /*color: #00f;*/
+    color: rgb(0, 0, 255);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+    text-transform: capitalize;
+    letter-spacing: 20px;
+}
+a:hover{
+    background-color: cyan;
+    color: red;
+    font-size: 30px;
+}
+#visited:visited{
+    color: green;
+}

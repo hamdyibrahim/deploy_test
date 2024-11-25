@@ -1,0 +1,52 @@
+<!--File Name: index.html
+    Description: Demo CSS
+    Author: Hamdy
+    Date: -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Styling Methods</title>
+        <!--External CSS File-->
+        <link rel="stylesheet" href="styles/style.css" type="text/css">
+
+        <!--Embedded/Internal Method-->
+        <style type="text/css">
+            /* This is CSS section - Comment */
+            /* CSS Rules 
+                Selector {
+                add css rules
+        }*/
+        h1 {
+            background-color: red;
+            color: white;
+            width: 400px;
+        }
+        p {
+            color: green;
+        }
+        #vip {
+            font-size: 30px;
+        }
+        .third_p {
+            background-color: cyan;
+        }
+        </style>
+        
+    </head>
+    <body>
+        <!--inline method: CSS Property: Value-->
+        <h1 style="color:yellow">Heading 1</h1>
+        <p style="color:blue;text-align: center;
+                  font-weight: bold;font-size: 40px;">Para 1</p>
+
+        <h1>Heading 2</h1>
+        <p id="vip">Para 2</p>
+
+        <h1>Heading 3</h1>
+        <p class="third_p">Para 3</p>
+        <img src="images/sait.png" alt="SAIT logo">
+        <p id="hex">Trying hexa and RGB</p>
+        <a id = "visited" href="https://fonts.google.com/knowledge/choosing_type/a_checklist_for_choosing_type">
+        Google Fonts</a>
+    </body>
+</html>
